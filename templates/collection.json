@@ -29,11 +29,19 @@
         "title": "",
         "content": "<p>{{ collection.metafields.my_fields.collections_seo.value }}<\/p>"
       }
+    },
+    "164993516851b37885": {
+      "type": "seo-content",
+      "settings": {
+        "title": "",
+        "content": "<p>{{ collection.metafields.my_fields.collectionfaqs_seo.value }}<\/p>"
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "16473589944be62bfe"
+    "16473589944be62bfe",
+    "164993516851b37885"
   ]
 }

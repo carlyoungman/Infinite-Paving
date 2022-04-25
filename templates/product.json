@@ -55,16 +55,16 @@
           "settings": {
             "heading": "Delivery information",
             "icon": "truck",
-            "content": "<p>Deliveries are made using an 18ton lorry with a tail lift. This requires a solid, concrete or tarmac flat surface for the offload. Deliveries are kerbside only, although the drivers will usually attempt to place on the driveway if possible. We cannot deliver onto a slope. Flat gravel driveways would require sheets of plywood for the wheels of the manual pallet truck to roll on. Hiab deliveries may be possible in and around London, providing a crane offload onto most surfaces.<br\/><br\/>Please ensure someone is available to sign for the delivery, otherwise you will be liable for a £30 re-delivery charge per pack if the goods are unable to be left.<br\/><br\/>Whilst every effort is made for your delivery to arrive on the day specified, it is not possible to guarantee the delivery date as we use a third party pallet network for our deliveries. We advise allowing an additional day from the delivery date specified, even though their success rate is 98% on the day specified.<br\/><br\/>We offer standard 3-5 working day delivery and express 1-2 day delivery for £12 on checkout.<br\/><br\/>Standard delivery is included on most orders within mainland England, Wales and Scotland. There is an additional charge of £40 per pack for the following Postcodes: AB, DD, FK (8-9, 11-21), IV, KW, KY (6+), PA, PH, TR<br\/><\/p><p>Whilst our carriers will always make every effort to deliver the products on the agreed delivery date we can not be held responsible for matters beyond our control that results in your products not arriving on the day in question. Please do not book builders or hire equipment for the day of delivery in case of a delayed delivery.  <\/p><p>Infinitepaving Ltd will be in no way liable to you for any loss, damage or expenses, either indirect or consequential, resulting out of the above situations or from the use of products purchased by you on Infinitepaving Ltd.<\/p>",
+            "content": "<p>Deliveries are made using an 18ton lorry with a tail lift. This requires a solid, concrete or tarmac flat surface for the offload. Deliveries are kerbside only, although the drivers will usually attempt to place on the driveway if possible. We cannot deliver onto a slope. Flat gravel driveways would require sheets of plywood for the wheels of the manual pallet truck to roll on. Hiab deliveries may be possible in and around London, providing a crane offload onto most surfaces.<br\/><br\/>Please ensure someone is available to sign for the delivery, otherwise you will be liable for a £30 re-delivery charge per pack if the goods are unable to be left.<br\/><br\/>Whilst every effort is made for your delivery to arrive on the day specified, it is not possible to guarantee the delivery date as we use a third party pallet network for our deliveries. Due to higher rates of driver shortages than usual, we currently advise allowing an additional day or two on top of the specified timeframes, in case of delays.<br\/><br\/>We offer standard 3-5 working day delivery or optional express 1-2 working day delivery for £15 per pack on checkout.<br\/><br\/>Standard delivery is included on most orders within mainland England, Wales and Scotland. There is an additional charge of £40 per pack for the following Postcodes: AB, DD, FK (8-9, 11-21), IV, KW, KY (6+), PA, PH, TR<br\/><\/p><p>Whilst our carriers will always make every effort to deliver the products on the agreed delivery date we can not be held responsible for matters beyond our control that results in your products not arriving on the day in question. Please do not book builders or hire equipment for the day of delivery in case of a delayed delivery.  <\/p><p>Infinitepaving Ltd will be in no way liable to you for any loss, damage or expenses, either indirect or consequential, resulting out of the above situations or from the use of products purchased by you on Infinitepaving Ltd.<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Returns information",
+            "heading": "Returns and Refund information",
             "icon": "ruler",
-            "content": "<p>We will happily issue a refund for any product purchased from Infinite Paving, providing we are notified within 14 days of the delivery date, and subject to the following conditions:- the product must be returned unused and as new, in salable condition, and in the original product packaging.- you will receive a full refund of the amount paid less £120 per crate to cover the original delivery and return charges.<\/p><p><\/p><p><strong>Damages<\/strong><\/p><p>Whilst every effort is made to get the stone to you in perfect condition, please allow for up to 1 or 2 broken slabs per pack. We will issue a refund for any amount above 2 broken slabs per pack upon provision of photos showing the damaged slabs, received within 7 days of receipt of goods. It is always advisable to allow an additional 5%-10% leeway on the amount ordered for damages or cuts.<\/p>",
+            "content": "<p>We will happily issue a refund for any product purchased from Infinite Paving, providing we are notified within 14 days of the delivery date, and subject to the following conditions:<br\/><br\/>- the product must be returned unused and as new, in saleable condition, and in the original product packaging. Returns can only be collected if the pallets are on a concrete flat surface, or were delivered with a crane.<br\/><br\/>- you will receive a full refund of the amount paid less £150 per crate to cover the original delivery and return charges. Due to nature of stone, being a product with natural variations between batches, returns based on colour will still be subject to the £150 delivery and collection charge.<\/p><p><\/p><p><strong>Damages<\/strong><\/p><p>Whilst every effort is made to get the stone to you in perfect condition, we include into the price an allowance of up to 2 damaged slabs per pack, on an average over your order. We always use the 2 smallest damaged slabs against the allowance. <\/p><p>We will issue a refund for any amount above 2 damaged slabs per pack upon provision of photos showing the damaged slabs, received within 7 days of receipt of goods. It is generally advisable to allow an additional 5%-10% leeway on the amount ordered for damages or cuts or the odd slab you may not like.<\/p>",
             "page": ""
           }
         }
@@ -104,8 +104,20 @@
             "header_bg_colour": "#000000",
             "header_colour": "#ffffff",
             "header_star_colour": "#ffffff",
+            "heading_text_colour": "#0e1311",
             "heading_font": "helvetica_n4",
+            "body_text_colour": "#0e1311",
+            "badge_icon_colour": "#0e1311",
+            "badge_text_colour": "#0e1311",
+            "bg_start_colour": "#ffffff",
+            "bg_end_colour": "#ffffff",
+            "item_border_width": "0px",
+            "item_border_colour": "#000000",
+            "item_border_radius": "0px",
+            "item_shadow_size": "10px",
+            "item_shadow_colour": "#000000",
             "enable_rich_snippets": false,
+            "disable_same_customer": false,
             "logo_colour": "var(--logo-inverted)"
           }
         }

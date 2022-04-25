@@ -1,0 +1,32 @@
+{% assign t = template | split: '.' | first  %}
+
+<nav class="breadcrumbs mb-12 mt-2 text-infiniteblack" aria-label="breadcrumbs">
+  <ol class="flex gap-4 items-center">
+    <li class="text-sm opacity-40">
+      <a href="/" title="Home">Home</a>
+    </li>
+    <li class="relative -top-px">
+      <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+      	<path d="M1 1L4 4L1 7" stroke="#B06263"/>
+      </svg>
+    </li>
+
+  {% case t %}
+  {% when 'page' %}
+
+    {% comment %} breadcrumb link output {% endcomment %}
+
+  {% else %}
+
+    <li aria-current="page" class="text-sm">
+      {% if collection.title %}
+      	<a href="{{ request.path }}" aria-current="page">{{- collection.title | escape -}}</a>
+      {% else %}
+      	<a href="{{ request.path }}" aria-current="page">{{- product.title | escape -}}</a>
+      {% endif %}
+    </li>
+
+  {% endcase %}
+
+  </ol>
+</nav>

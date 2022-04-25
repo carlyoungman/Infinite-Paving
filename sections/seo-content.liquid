@@ -1,0 +1,32 @@
+{%if section.settings.content != "" %}
+  <div class="py-20 lg:py-32 seo_content">
+    <div class="content">
+      <h2 class="product-recommendations__heading">{{ section.settings.title }}</h2>
+      <p>{{ section.settings.content }}</p>
+    </div>
+  </div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "SEO Content",
+    "class": "index-section index-section--flush",
+    "settings": [
+      {
+        "id": "title",
+        "type": "text",
+        "label": "Title"
+      },
+{
+        "id": "content",
+        "type": "richtext",
+        "label": "Content"
+      }
+    ],
+    "presets": [{
+      "name": "SEO Content",
+      "category": "Text"
+    }]
+  }
+{% endschema %}

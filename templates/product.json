@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Delivery information",
+            "icon": "truck",
+            "content": "<p>Deliveries are made using an 18ton lorry with a tail lift. This requires a solid, concrete or tarmac flat surface for the offload. Deliveries are kerbside only, although the drivers will usually attempt to place on the driveway if possible. We cannot deliver onto a slope. Flat gravel driveways would require sheets of plywood for the wheels of the manual pallet truck to roll on. Hiab deliveries may be possible in and around London, providing a crane offload onto most surfaces.<br\/><br\/>Please ensure someone is available to sign for the delivery, otherwise you will be liable for a £30 re-delivery charge per pack if the goods are unable to be left.<br\/><br\/>Whilst every effort is made for your delivery to arrive on the day specified, it is not possible to guarantee the delivery date as we use a third party pallet network for our deliveries. We advise allowing an additional day from the delivery date specified, even though their success rate is 98% on the day specified.<br\/><br\/>We offer standard 3-5 working day delivery and express 1-2 day delivery for £12 on checkout.<br\/><br\/>Standard delivery is included on most orders within mainland England, Wales and Scotland. There is an additional charge of £40 per pack for the following Postcodes: AB, DD, FK (8-9, 11-21), IV, KW, KY (6+), PA, PH, TR<br\/><\/p><p>Whilst our carriers will always make every effort to deliver the products on the agreed delivery date we can not be held responsible for matters beyond our control that results in your products not arriving on the day in question. Please do not book builders or hire equipment for the day of delivery in case of a delayed delivery.  <\/p><p>Infinitepaving Ltd will be in no way liable to you for any loss, damage or expenses, either indirect or consequential, resulting out of the above situations or from the use of products purchased by you on Infinitepaving Ltd.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns information",
+            "icon": "ruler",
+            "content": "<p>We will happily issue a refund for any product purchased from Infinite Paving, providing we are notified within 14 days of the delivery date, and subject to the following conditions:- the product must be returned unused and as new, in salable condition, and in the original product packaging.- you will receive a full refund of the amount paid less £120 per crate to cover the original delivery and return charges.<\/p><p><\/p><p><strong>Damages<\/strong><\/p><p>Whilst every effort is made to get the stone to you in perfect condition, please allow for up to 1 or 2 broken slabs per pack. We will issue a refund for any amount above 2 broken slabs per pack upon provision of photos showing the damaged slabs, received within 7 days of receipt of goods. It is always advisable to allow an additional 5%-10% leeway on the amount ordered for damages or cuts.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "caption",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-1",
+        "collapsible-row-2"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "16469187926063f99c": {
+      "type": "apps",
+      "blocks": {
+        "ed9a8423-47a4-492d-b0b7-4332073e6aa9": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000000",
+            "review_type": "company, product, third_party",
+            "reviews_shown": 20,
+            "header_bg_colour": "#000000",
+            "header_colour": "#ffffff",
+            "header_star_colour": "#ffffff",
+            "heading_font": "helvetica_n4",
+            "enable_rich_snippets": false,
+            "logo_colour": "var(--logo-inverted)"
+          }
+        }
+      },
+      "block_order": [
+        "ed9a8423-47a4-492d-b0b7-4332073e6aa9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Similar products",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "16472643149a0427d4": {
+      "type": "seo-content",
+      "settings": {
+        "title": "Space for SEO content",
+        "content": "<p>{{ product.metafields.my_fields.seo_content | metafield_tag }}<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16469187926063f99c",
+    "product-recommendations",
+    "16472643149a0427d4"
+  ]
+}

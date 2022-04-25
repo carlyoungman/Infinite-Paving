@@ -1,0 +1,43 @@
+{% schema %}
+  {
+    "name": "Product Checklist",
+    "settings": [
+	        {
+          "type": "text",
+          "id": "heading",
+          "default": "Collapsible row",
+          "info": "t:sections.main-product.blocks.collapsible_tab.settings.heading.info",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.heading.label"
+        }
+	], 
+	"blocks": [
+     {
+       "name": "Detail",
+       "type": "detail",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "icon",
+           "label": "Icon"
+         },
+			{
+           "type": "text",
+           "id": "title",
+           "label": "Title"
+         },
+              {
+           "type": "text",
+           "id": "description",
+           "label": "Description"
+         }
+       ]
+     }
+   ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

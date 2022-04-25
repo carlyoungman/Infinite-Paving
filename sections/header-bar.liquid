@@ -1,0 +1,51 @@
+<section class="" style="background-color:{{ section.settings.bgcolor }}">
+  <div class="content flex justify-between items-center flex-wrap py-4 text-sm">
+    <div class="md:w-1/2 w-full flex md:justify-start justify-center">
+      <ul class="gap-x-12 header_bar__links lg:flex hide">
+        {% for link in section.settings.menu.links %}
+        	<li>
+    			<a class="transition-all duration-300" style="color:{{ section.settings.fontcolor }}" href="{{ link.url }}">{{ link.title }}</a>
+        	</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="md:w-1/2 w-full uppercase text-center md:text-right md:mt-0 mt-2" style="color:{{ section.settings.fontcolor }}">
+       <a class="font-bold hover:text-infinitegreen transition-all duration-300" href="tel:+441179269020">{{ section.settings.content }}</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Header top",
+	"limit": 1,
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "Menu"
+      },
+	{
+        "type": "color",
+        "id": "bgcolor",
+        "label": "Background colour"
+      },
+{
+        "type": "color",
+        "id": "fontcolor",
+        "label": "Text colour"
+      },
+		{
+        "type": "text",
+        "id": "content",
+        "label": "Content"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

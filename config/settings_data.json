@@ -1,0 +1,248 @@
+{
+  "current": {
+    "social_twitter_link": "https:\/\/twitter.com\/infinitepaving\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/infinitepaving\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.co.uk\/infinitepaving\/",
+    "favicon": "shopify:\/\/shop_images\/infinite-paving-favicon.png",
+    "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_1.png",
+    "checkout_sidebar_background_color": "#f6f6f6",
+    "checkout_accent_color": "#a34a32",
+    "checkout_button_color": "#7f8227",
+    "checkout_error_color": "#a34a32",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "aa8d50c3-24ff-42ce-9b17-8d23c492c7a4": {
+            "type": "detail",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/delivery.png",
+              "title": "Free UK Delivery",
+              "description": "3-5 Business Days"
+            }
+          },
+          "3988ecf6-02d5-40c6-81df-985e478c0b79": {
+            "type": "detail",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/wallet.png",
+              "title": "Prices Include VAT",
+              "description": "No Hidden Costs"
+            }
+          },
+          "b45b9f0f-4ef6-41c9-a084-2492782eaf74": {
+            "type": "detail",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/price_guarantee.png",
+              "title": "Price Match",
+              "description": "We won’t be beaten on price"
+            }
+          },
+          "f3184fbc-099f-4ebd-bfbb-e896aaad8062": {
+            "type": "detail",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/reviews.png",
+              "title": "4.8 \/ 5 verified reviews",
+              "description": "on reviews.io"
+            }
+          }
+        },
+        "block_order": [
+          "aa8d50c3-24ff-42ce-9b17-8d23c492c7a4",
+          "3988ecf6-02d5-40c6-81df-985e478c0b79",
+          "b45b9f0f-4ef6-41c9-a084-2492782eaf74",
+          "f3184fbc-099f-4ebd-bfbb-e896aaad8062"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/infinite-paving-logo.png",
+          "logo_width": 250,
+          "logo_position": "top-left",
+          "menu": "main-menu",
+          "mobilemenu": "",
+          "show_line_separator": false,
+          "enable_sticky_header": false,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Company",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick Links",
+              "menu": "quick-links"
+            }
+          },
+          "eca1b883-3b18-4ffc-ad46-60933f0a3009": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Account",
+              "menu": "account"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "eca1b883-3b18-4ffc-ad46-60933f0a3009"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+        }
+      },
+      "header-bar": {
+        "type": "header-bar",
+        "settings": {
+          "menu": "header-bar",
+          "bgcolor": "#121212",
+          "fontcolor": "#ffffff",
+          "content": "CALL US ON 0117 926 9020"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "15316669992541710076": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "star": "#000",
+          "snippet_mode": "default",
+          "text": "Reviews",
+          "line_break": false,
+          "show_popup": true,
+          "anchor_to_reviews_widget": false,
+          "show_empty_stars": false
+        }
+      },
+      "10830403595879607806": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "infinitepaving-ltd",
+          "lang": "auto"
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social": true,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+          }
+        }
+      }
+    }
+  }
+}

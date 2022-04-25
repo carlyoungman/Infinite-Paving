@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "164665250127ceaf8a": {
+      "type": "image-banner",
+      "blocks": {
+        "16466525012d4bb128-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "High quality natural stone paving",
+            "heading_size": "medium"
+          }
+        },
+        "16466525012d4bb128-1": {
+          "type": "text",
+          "settings": {
+            "text": "We supply the highest quality natural stone paving at the most competitive prices on the market.",
+            "text_style": "body"
+          }
+        },
+        "16466525012d4bb128-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop All",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16466525012d4bb128-0",
+        "16466525012d4bb128-1",
+        "16466525012d4bb128-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Header_image.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "164665323115c00d83": {
+      "type": "multicolumn",
+      "blocks": {
+        "16466532314812ea0a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handsawn_button.png",
+            "title": "Sawn Paving",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/sawn-paving"
+          }
+        },
+        "16466532314812ea0a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/split_button.png",
+            "title": "Hand Split Paving",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/hand-split-paving"
+          }
+        },
+        "16466532314812ea0a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cobbles_button.png",
+            "title": "Circles, Cobbles and Walling",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "16466532314812ea0a-0",
+        "16466532314812ea0a-1",
+        "16466532314812ea0a-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1646827581a994214b": {
+      "type": "apps",
+      "blocks": {
+        "4390307b-b60e-4093-b181-388b52335d1e": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000000",
+            "review_type": "company, product",
+            "reviews_shown": 20,
+            "header_bg_colour": "#f3f3f3",
+            "header_colour": "#121212",
+            "header_star_colour": "#121212",
+            "heading_font": "helvetica_n4",
+            "enable_rich_snippets": false,
+            "logo_colour": "var(--logo-normal)"
+          }
+        }
+      },
+      "block_order": [
+        "4390307b-b60e-4093-b181-388b52335d1e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16466643393e65e37e": {
+      "type": "reviews",
+      "settings": {
+        "cta_1_title": "Dryups Specials"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "164681947779579b48": {
+      "type": "pre-footer",
+      "blocks": {
+        "6dda3d53-0b0c-4ed4-bb0a-9543f3475285": {
+          "type": "detail",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Tree.png",
+            "title": "A beautiful addition to your garden",
+            "description": "Natural stone paving provides a beautiful addition to your home and garden while extending the practical functions of your outdoor space. You can find a variety of finishes to suit the style of your garden, whether it is the more contemporary look you are after or the more traditional."
+          }
+        },
+        "fdedf2ba-54f6-48fc-907e-519f1ba21c45": {
+          "type": "detail",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/HouseSimple.png",
+            "title": "Also suitable for interior flooring",
+            "description": "Natural stone paving can also be used for interior flooring, allowing a seamless transition from your interior space into your garden. With stone ranging from sandstone paving slabs, limestone paving slabs and slate paving slabs in a variety of finishes, you can create a sophisticated look that complements both the style of the house and your exterior space."
+          }
+        },
+        "e840bacd-c542-4988-9b58-83e8d92ef851": {
+          "type": "detail",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_22.png",
+            "title": "Wide range of styles",
+            "description": "This can range from a more traditional style with the natural stone paving slabs split down the seam leaving a naturally riven paving surface and ageing techniques to artificially weather the stone, to a more contemporary style with sharp clean angles and smooth surfaces that will add an elegantly chic look to your space."
+          }
+        }
+      },
+      "block_order": [
+        "6dda3d53-0b0c-4ed4-bb0a-9543f3475285",
+        "fdedf2ba-54f6-48fc-907e-519f1ba21c45",
+        "e840bacd-c542-4988-9b58-83e8d92ef851"
+      ],
+      "settings": {
+        "title": "A Quality Supplier of Paving",
+        "subtitle": "Infinite Paving prides itself in supplying the widest audience by providing the best prices on the highest quality natural and porcelain stone paving, from Indian Sandstone Paving slabs and Indian limestone paving to Brazilian slate paving.",
+        "description": "<p>Browse through our vast paving range and order you products directly online to be delivered at your kerbside within a week.<\/p>",
+        "ctatext": "View all paving",
+        "ctalink": "walling",
+        "message": "<p>At Infinite Paving, we strive to provide you with 100% customer satisfaction. A happy customer makes us happy. We appreciate your custom, thank you. <\/p>"
+      }
+    }
+  },
+  "order": [
+    "164665250127ceaf8a",
+    "164665323115c00d83",
+    "1646827581a994214b",
+    "16466643393e65e37e",
+    "featured_collection",
+    "164681947779579b48"
+  ]
+}
